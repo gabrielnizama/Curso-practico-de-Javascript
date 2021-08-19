@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #cedef3;
+}
+header{
+    width: 100%;
+    height: 90px;
+    text-align: center;
+}
+header figure{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 30px;
+}
+h1{
+    font-size: 28px;
+}
+
+.calcular{
+    width: 330px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.calcular figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.figura_geometrica{
+    width: 60px;
+    margin: 10px;
+}
+.calcular h2{
+    margin: 10px;
+} 
+form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+}
+label{
+    width: 100%;
+    height: 30px;
+    
+}
+input{
+    width: 80%;
+    height: 25px;
+    margin: 5px auto;
+    background-color: rgb(180, 224, 245);
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button{
+    width: 70%;
+    height: 30px;
+    margin: 5px auto;
+    border: 1px solid black;
+    background-color: rgb(69, 212, 212);
+}

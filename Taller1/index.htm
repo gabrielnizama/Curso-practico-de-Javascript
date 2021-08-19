@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geométricas | Curso Práctico de Javascript</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 760px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width:1020px)">
+</head>
+<body>
+    <header>
+        <figure>
+            <img class="logo" src="./imagenes/logo.jpg" alt="">
+            <h1>
+            Figuras geométricas
+        </h1>
+        
+        </figure>
+        
+        <p>Este es el primer taller del Curso práctico de Javascript</p>
+    </header>
+    <main>
+        <section class="calcular cuadrado">
+            <figure>
+                <img class="figura_geometrica" src="./imagenes/cuadrado.png" alt="">
+                <h2>Cuadrado</h2>
+            </figure>
+            
+            <form action="">
+                <label for="InputCuadrado">
+                    Escribe cuánto mide el lado de tu cuadrado: 
+                </label>
+                <input id="InputCuadrado" type="number">
+                <button type="button" onclick="calcularPerimetroCuadrado()">
+                    Calcular el perímetro
+                </button>
+                <button type="button" onclick="calcularAreaCuadrado()">
+                    Calcular el área
+                </button>
+            </form>
+        </section>
+        <section class="calcular triangulo">
+            <figure>
+                <img class="figura_geometrica" src="./imagenes/triangulo.png" alt="">
+                <h2>Triángulo</h2>
+            </figure>
+            
+            <form action="">
+                <label for="InputTriangulo1">
+                    Escribe cuánto mide los lados del triángulo: 
+                </label>
+                <input id="InputTriangulo1" type="number">
+                <input id="InputTriangulo2" type="number">
+                <input id="InputTriangulo3" type="number">
+                <button type="button" onclick="calcularPerimetroTriangulo()">
+                    Calcular el perímetro
+                </button>
+                <button type="button" onclick="calcularAreaTriangulo()">
+                    Calcular el área
+                </button>
+            </form>
+        </section>
+        <section class="calcular circulo">
+            <figure>
+                <img class="figura_geometrica" src="./imagenes/circulo.png" alt=""> <h2>Círculo</h2>
+            </figure>
+           
+            <form action="">
+                <label for="InputCirculo">
+                    Escribe cuánto mide el radio de tu Círculo: 
+                </label>
+                <input id="InputCirculo" type="number">
+                <button type="button" onclick="calcularPerimetroCirculo()">
+                    Calcular el perímetro
+                </button>
+                <button type="button" onclick="calcularAreaCirculo()">
+                    Calcular el área
+                </button>
+            </form>
+        </section>
+    </main>
+        
+    
+    <script src="./figuras.js"></script>
+</body>
+</html>
