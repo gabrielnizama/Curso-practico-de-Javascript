@@ -3,74 +3,109 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: #cedef3;
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin: 0 2px;
+    font-size: 14px;
 }
-header{
+nav{
     width: 100%;
-    height: 90px;
-    text-align: center;
-}
-header figure{
-    height: 80%;
+    height: 50px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_home{
+    display: flex;
     align-items: center;
 }
-.logo{
+.home{
     width: 30px;
+    margin: 2px;
 }
-h1{
-    font-size: 28px;
-}
-
-.calcular{
-    width: 330px;
-    height: 300px;
+.title_project{
+    width: 100%;
+    height: 70px;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 30px auto;
-    text-align: center;
+    justify-content: center;
+}
+.calcular{
+    width: 310px;
+    height: 450px;
     border: 2px solid black;
     border-radius: 30px;
+    margin:  30px auto ;
 }
 .calcular figure{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-.figura_geometrica{
-    width: 60px;
-    margin: 10px;
-}
-.calcular h2{
-    margin: 10px;
-} 
-form{
-    width: 90%;
+    width: 100%;
+    height: 40%;
     display: flex;
     flex-direction: column;
-    margin: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.figura_geometrica{
+    width: 120px;
+    margin: 10px 0;
+}
+form{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.result{
+    width: 80%;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+figure h2{
+    font-size: 36px;
 }
 label{
-    width: 100%;
-    height: 30px;
-    
+    font-size: 22px;
+    margin: 10px;
 }
-input{
+.input{
     width: 80%;
-    height: 25px;
-    margin: 5px auto;
-    background-color: rgb(180, 224, 245);
-    border: 1px solid black;
-    border-radius: 10px;
-    cursor: pointer;
+    height: 35px;
+    margin-bottom: 15px;
+}
+.buttons{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
 }
 button{
-    width: 70%;
-    height: 30px;
-    margin: 5px auto;
-    border: 1px solid black;
-    background-color: rgb(69, 212, 212);
+    width: 48%;
+    height: 35px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+.inputs{
+    width: 80%;
+    height: auto;
+    display: inline-block;
+}
+.inputs input{
+    width: 45%;
+    height: 25px;
+    margin: 0 5px 10px 5px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    color: aqua;
 }

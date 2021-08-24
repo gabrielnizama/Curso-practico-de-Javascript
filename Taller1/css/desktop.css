@@ -1,9 +1,4 @@
-.calcular{
-    width: 35%;
-}
-input{
-    width: 60%;
-}
-button{
-    width: 50%;
+.calculos{
+    display: flex;
+    flex-wrap: nowrap;
 }

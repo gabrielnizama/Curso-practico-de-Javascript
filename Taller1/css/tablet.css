@@ -1,4 +1,12 @@
-main{
+.calcular{
+    width: 330px;
+}
+.calculos{
+    width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
+}
+a{
+    font-size: 16px;
 }
