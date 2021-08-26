@@ -2,3 +2,15 @@
     display: flex;
     flex-wrap: nowrap;
 }
+input{
+    height: 30px;
+}
+button{
+    height: 30px;
+}
+.result{
+    height: 70px;
+}
+.calcular{
+    height: 420px;
+}
