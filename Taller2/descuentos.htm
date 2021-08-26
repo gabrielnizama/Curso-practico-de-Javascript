@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y descuentos | Curso Práctico de Javascript</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 760px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width:1020px)">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav_home">
+                <div class="home_circle">
+                    <div class="home_triangulo" ></div>
+                    <div class="home_rectangulo"></div>
+                    <div class="home_cuadrados">
+                        <div class="home_cuadrado"></div>
+                        <div class="home_cuadrado"></div>
+                    </div>
+                </div>
+                <a href="">Inicio</a>
+            </div>
+            <div>
+                <a href="../Taller1/index.htm">Taller 1 |</a>
+                <a href="">Taller 2 |</a>
+                <a href="../Taller3/reto.htm">Taller 3  </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="title_project">
+            <h1>
+                Porcentajes y descuentos
+            </h1>
+            <p>Este es el segundo taller del Curso Práctico de Javascript</p>
+        </section>
+        <section class="tarjet_discount">
+            <h2>
+                Calcula el precio a pagar de tus productos
+            </h2>
+            <form action="">
+                <label for="InputPrice">Precio</label>
+                <input placeholder=" Precio" id="InputPrice" type="number">
+
+                <label for="InputCoupon">Descuento o Cupón  </label>
+                <input list="discount" id="InputCoupon" type="text" placeholder="Cupones">
+                <datalist id="discount">
+                    <option value="Platino"></option>
+                    <option value="Oro"></option>
+                    <option value="Premium"></option>
+                </datalist>
+
+                <button type="button" onclick="onClickButtonPriceDiscount()">
+                    Calcular
+                </button>
+                
+                <div class="result">
+                    <p id="ResultP"></p>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Dessigned by <a href="https://github.com/gabrielnizama">GabrielNizama</a></p>
+    </footer>
+
+    
+    <script src="./descuento.js"></script>
+</body>
+</html>

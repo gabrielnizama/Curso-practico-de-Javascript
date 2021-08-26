@@ -1,0 +1,64 @@
+a{
+    font-size: 16px;
+}
+form{
+    text-align: center;
+    width: 660px;
+    height: 430px;
+    display: grid;
+    grid-template-areas: "titulo titulo"
+                "label1 label2"
+                "input1 input2"
+                "label3 label4"
+                "input3 input4"
+                "button button"
+                "result result"
+                "result result";
+    gap: 10px;
+}
+label{
+    text-align: left;
+}
+input{
+    width: 95%;
+    height: 35px;
+}
+button{
+    width: 50%;
+    height: 35px;
+    grid-area: button;
+    margin: 0 auto;
+    cursor: pointer;
+}
+form h1{
+    grid-area: titulo ;
+}
+.label1{
+    grid-area: label1;
+}
+.label2{
+    grid-area: label2;
+}
+.label3{
+    grid-area: label3;
+}
+.label4{
+    grid-area: label4;
+}
+.input1{
+    grid-area: input1;
+}
+.input2{
+    grid-area: input2;
+}
+.input3{
+    grid-area: input3;
+}
+.input4{
+    grid-area: input4;
+}
+.result{
+    grid-area: result;
+    width: 100%;
+    margin: 0;
+}

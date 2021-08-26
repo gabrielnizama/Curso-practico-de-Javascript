@@ -1,0 +1,140 @@
+:root{
+    --color_texto: white;
+    --color_tarjetas:#0f483d;
+    --color_figuras: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #122c26;
+    color: var(--color_texto);
+}
+a{
+    text-decoration: none;
+    color: var(--color_texto);
+    cursor: pointer;
+    margin: 0 2px;
+}
+a:hover{
+    font-weight: bold;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #122c26;
+}
+.nav_home{
+    display: flex;
+    align-items: center;
+}
+.home_circle{
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 0 3px;
+
+}
+.home_triangulo{
+    width: 0;
+    height: 0;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 11px solid white;
+    margin: 1px auto;
+    margin-bottom: 0;
+}
+.home_rectangulo{
+    width: 18px;
+    height: 4px;
+    background-color: white;
+    margin: 0 auto;
+}
+.home_cuadrados{
+    display: flex;
+    justify-content: center;
+}
+.home_cuadrado{
+    width: 7px;
+    height: 7px;
+    background-color: white;
+    margin: 0 2px;
+}
+
+.title_project{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.result{
+    width: 80%;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
+.tarjet_discount{
+    width: 310px;
+    height: 400px;
+    background-color: var(--color_tarjetas);
+    border-radius: 42px;
+    text-align: center;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.tarjet_discount:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px 2px black;
+}
+form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    font-size: 18px;
+    margin: 10px 0;
+}
+input{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 15px;
+}
+button{
+    width: 65%;
+    height: 30px;
+    margin: 10px 0 15px 0;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px 0;
+    background-color: var(--color_figuras);
+
+}
+button:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
