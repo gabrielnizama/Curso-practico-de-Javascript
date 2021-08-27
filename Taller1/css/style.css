@@ -1,6 +1,6 @@
 :root{
     --color_texto: white;
-    --color_tarjetas:#0f483d;
+    --color_tarjetas:#24385b;
     --color_figuras: white;
 }
 *{
@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #122c26;
+    background-color: #121f3d;
     color: var(--color_texto);
 }
 a{
@@ -23,11 +23,11 @@ a:hover{
 }
 nav{
     width: 100%;
-    height: 50px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #122c26;
+    background-color: #03091e;
 }
 .nav_home{
     display: flex;
@@ -81,9 +81,10 @@ nav{
     border-radius: 50px;
     margin:  30px auto ;
     background-color: var(--color_tarjetas);
+    box-shadow: 2px 2px 3px 3px #03091e;
 }
 .calcular:hover{
-    transform: scale(1.1);
+    transform: scale(1.07);
     box-shadow: 2px 2px 2px 2px black;
 }
 .calcular figure{
